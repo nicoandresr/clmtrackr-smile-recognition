@@ -38,7 +38,7 @@ class SmileClassifier {
 
     const value = predict(meanParameters);
 
-    return value > 0.4;
+    return value;
   }
 }
 
